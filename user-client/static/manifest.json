@@ -1,0 +1,20 @@
+{
+  "name": "Sighter Travel",
+  "short_name": "Sighter Travel",
+  "icons": [
+    {
+      "src": "<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/Stravelx192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "<%= htmlWebpackPlugin.files.publicPath %>/static/img/icons/Stravelx512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0284a8"
+}
